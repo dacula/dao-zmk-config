@@ -17,7 +17,7 @@
 #ifndef KEYMAP_GERMAN
 #define KEYMAP_GERMAN
 
-#include "keymap.h"
+#include <dt-bindings/zmk/keys.h>
 
 // normal characters
 #define DE_Z Y
