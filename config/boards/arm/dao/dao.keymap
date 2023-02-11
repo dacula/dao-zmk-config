@@ -31,10 +31,10 @@
                 };
                 lower_layer {
                         bindings = <
-&none &kp DE_CIRC         &kp DE_PERC      &kp DE_AT      &kp DE_DQOT     &kp DE_QUOT      &lt ADJ DE_ACUT                  &lt ADJ  &kp DE_SLSH   &kp DE_EXLM   &kp DE_EQL  &kp DE_QST &kp DE_ASTR &none
-      &mt LCTRL PLUS &kp DE_LESS &kp DE_MORE &kp DE_DLR &kp DE_HASH &kp DE_EQL     &kp DE_LCBR  &kp DE_LPRN &kp DE_AMPR &kp DE_PIPE &kp DE_RPRN &mt RCTRL DE_RCBR
-      &mt LALT GRAVE &kp N1   &kp N2 &kp N3   &kp N4   &kp N5        &kp DE_TILD     &kp DE_LESS   &kp DE_LBRC   &kp DE_RBRC   &kp DE_MORE   &mt RALT RBKT
-                                             &trans &trans &trans    &lt ADJ ENTER &trans &kp DEL
+&none &kp DE_CIRC    &kp DE_PERC &kp DE_AT   &kp DE_DQOT &kp DE_QUOT &lt ADJ DE_ACUT    &lt ADJ     &kp DE_SLSH &kp DE_EXLM &kp DE_EQL  &kp DE_QST  &kp DE_ASTR &none
+      &mt LCTRL PLUS &kp DE_LESS &kp DE_MORE &kp DE_DLR  &kp DE_HASH &kp DE_EQL         &kp DE_LCBR &kp DE_LPRN &kp DE_AMPR &kp DE_PIPE &kp DE_RPRN &mt RCTRL DE_RCBR
+      &mt LALT GRAVE &kp N1      &kp N2      &kp N3      &kp N4      &kp N5             &kp DE_TILD &kp DE_LESS &kp DE_LBRC &kp DE_RBRC &kp DE_MORE &mt RALT RBKT
+                                                &trans &trans &trans             &lt ADJ ENTER &trans &kp DEL
                         >;
                 };
 

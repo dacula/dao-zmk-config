@@ -71,7 +71,7 @@
 #define DE_ACUT EQUAL // accent acute ´ and grave `
 #define DE_PLUS RBKT // + and * and ~
 #define DE_HASH BSLH // # and '
-#define DE_LESS NUBS // < and > and |
+#define DE_LESS NON_US_BSLH // < and > and |
 #define DE_MINS FSLH // - and _
 
 // shifted characters
@@ -91,8 +91,8 @@
 #define DE_ASTR LS(DE_PLUS) // *
 #define DE_QUOT LS(DE_HASH) // '
 #define DE_MORE LS(DE_LESS) // >
-#define DE_COLN LS(DOT) // :
-#define DE_SCLN LS(COMM) // ;
+#define DE_COLN LS(DE_DOT) // :
+#define DE_SCLN LS(DE_COMM) // ;
 #define DE_UNDS LS(DE_MINS) // _
 
 // Alt Gr-ed characters
