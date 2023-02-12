@@ -76,16 +76,16 @@
 
 // shifted characters
 #define DE_RING LS(DE_CIRC) // °
-#define DE_EXLM LS(1) // !
-#define DE_DQOT LS(2) // "
-#define DE_PARA LS(3) // §
-#define DE_DLR  LS(4) // $
-#define DE_PERC LS(5) // %
-#define DE_AMPR LS(6) // &
-#define DE_SLSH LS(7) // /
-#define DE_LPRN LS(8) // (
-#define DE_RPRN LS(9) // )
-#define DE_EQL  LS(0) // =
+#define DE_EXLM LS(N1) // !
+#define DE_DQOT LS(N2) // "
+#define DE_PARA LS(N3) // §
+#define DE_DLR  LS(N4) // $
+#define DE_PERC LS(N5) // %
+#define DE_AMPR LS(N6) // &
+#define DE_SLSH LS(N7) // /
+#define DE_LPRN LS(N8) // (
+#define DE_RPRN LS(N9) // )
+#define DE_EQL  LS(N0) // =
 #define DE_QST  LS(DE_SS) // ?
 #define DE_GRV  LS(DE_ACUT) // `
 #define DE_ASTR LS(DE_PLUS) // *
@@ -96,12 +96,12 @@
 #define DE_UNDS LS(DE_MINS) // _
 
 // Alt Gr-ed characters
-#define DE_SQ2 RA(2) // ²
-#define DE_SQ3 RA(3) // ³
-#define DE_LCBR RA(7) // {
-#define DE_LBRC RA(8) // [
-#define DE_RBRC RA(9) // ]
-#define DE_RCBR RA(0) // }
+#define DE_SQ2 RA(N2) // ²
+#define DE_SQ3 RA(N3) // ³
+#define DE_LCBR RA(N7) // {
+#define DE_LBRC RA(N8) // [
+#define DE_RBRC RA(N9) // ]
+#define DE_RCBR RA(N0) // }
 #define DE_BSLS RA(DE_SS) // backslash
 #define DE_AT  RA(Q) // @
 #define DE_EURO RA(E) // €
