@@ -31,7 +31,7 @@
                 };
                 lower_layer {
                         bindings = <
-&none &kp DE_CIRC    &kp DE_PERC &kp DE_AT   &kp DE_DQOT &kp DE_QUOT &lt ADJ DE_ACUT    &lt ADJ DE_BSLS    &kp DE_SLSH &kp DE_EXLM &kp DE_EQL  &kp DE_QST  &kp DE_ASTR &none
+&none &kp DE_CIRC    &kp DE_PERC &kp DE_AT   &kp DE_DQOT &kp DE_QUOT &lt ADJ DE_ACUT    &lt ADJ DE_BSLS    &kp DE_SLSH &kp DE_EXLM &kp DE_ASTR  &kp DE_EQL  &kp DE_QST &none
       &mt LSHIFT PLUS &kp DE_LESS &kp DE_HASH &kp DE_DLR  &kp DE_MORE &kp DE_EQL         &kp DE_LCBR &kp DE_LPRN &kp DE_AMPR &kp DE_PIPE &kp DE_RPRN &mt RCTRL DE_RCBR
       &kp LCTRL  &kp LALT      &kp C_VOL_DN      &kp C_MUTE      &kp C_VOL_UP      &kp PSCRN             &kp DE_TILD &kp DE_LESS &kp DE_LBRC &kp DE_RBRC &kp DE_MORE &mt RALT RBKT
                                              &trans &trans &trans    &lt ADJ ENTER &trans &kp DEL
@@ -40,8 +40,8 @@
 
                 raise_layer {
                         bindings = <
-&none &kp KP_NUM      &kp KP_SLASH    &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_MINUS    &kp C_VOL_UP &kp HOME &kp UP &kp PG_UP &kp SLCK        &kp CLCK        &none
-      &mt LSHIFT DE_EQL &kp KP_MULTIPLY &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_PLUS     &kp C_MUTE   &kp LEFT &kp DOWN    &kp RIGHT &kp INS         &mt RCTRL K_APP
+&none &kp KP_NUM      &kp KP_SLASH    &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_MINUS      &kp C_VOL_UP &kp HOME &kp UP &kp PG_UP &none  &kp DE_SS        &none
+      &mt LSHIFT DE_EQL &kp KP_MULTIPLY &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_PLUS     &kp C_MUTE   &kp LEFT &kp DOWN    &kp RIGHT &kp INS       &mt RCTRL K_APP
       &kp LCTRL        &kp KP_N0       &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_DOT      &kp C_VOL_DN &kp END  &kp PSCRN  &kp PG_DN &kp PAUSE_BREAK &kp RALT
                                                        &trans &trans &lt ADJ ESC    &trans    &trans     &kp DEL
                         >;
