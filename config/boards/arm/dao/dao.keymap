@@ -26,7 +26,7 @@
 &none &mt LALT TAB   &kp Q &kp W &kp E &kp R &kp T    &kp Y &kp U &kp I     &kp O   &kp P    &kp DE_UE      &none
       &kp LCTRL  &kp A &kp S &kp D &kp F &kp G    &kp H &kp J &kp K     &kp L   &kp DE_OE &kp DE_AE
       &kp LSHIFT &kp Z &kp X &kp C &kp V &kp B    &kp N &kp M &kp COMMA &kp DOT &kp DE_MINS &mt RALT DE_PLUS
-               &lt LWR LGUI &kp SPACE &lt RSE ESC     &lt RSE ENTER &kp BSPC &lt LWR DEL
+               &kp LGUI  &lt LWR SPACE &lt RSE ESC     &lt RSE DEL &lt LWR BSPC &kp ENTER
                         >;
                 };
                 lower_layer {
@@ -34,7 +34,7 @@
 &none &kp DE_CIRC     &kp DE_PERC &kp DE_AT    &kp DE_DQOT &kp DE_QUOT  &kp DE_ACUT    &kp DE_BSLS    &kp DE_SLSH &kp DE_EXLM &kp DE_ASTR  &kp DE_EQL  &kp DE_QST &none
       &mt LSHIFT PLUS &kp DE_LESS &kp DE_HASH  &kp DE_DLR  &kp DE_MORE  &kp DE_EQL     &kp DE_LCBR &kp DE_LPRN &kp DE_AMPR &kp DE_PIPE &kp DE_RPRN &mt RALT DE_RCBR
       &kp LCTRL       &kp LALT    &kp C_VOL_DN &kp C_MUTE  &kp C_VOL_UP &kp PSCRN      &kp DE_TILD &kp DE_LESS &kp DE_LBRC &kp DE_RBRC &kp DE_MORE &mt RCTRL RBKT
-                                             &trans &trans &trans    &trans &trans &kp DEL
+                                             &trans &trans &trans    &trans &kp DEL &kp DEL
                         >;
                 };
 
