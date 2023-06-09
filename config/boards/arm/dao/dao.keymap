@@ -32,7 +32,7 @@
                 lower_layer {
                         bindings = <
 &none &kp ESC    &kp DE_AT   &kp DE_PERC  &kp DE_EURO &kp DE_ACUT  &kp DE_CIRC      &kp DE_BSLS &kp DE_SLSH &kp DE_PIPE &kp DE_EQL  &kp DE_PLUS &kp DE_ASTR &none
-      &kp LCTRL  &kp DE_AMPR &kp DE_SS    &kp DE_DLR  &kp DE_EXLM  &kp DE_EQL       &kp DE_HASH &kp DE_LCBR &kp DE_LPRN &kp DE_RPRN &kp DE_RCBR &kp DE_QUOT
+      &kp DE_DQOT  &kp DE_AMPR &kp DE_SS    &kp DE_DLR  &kp DE_EXLM  &kp DE_EQL       &kp DE_HASH &kp DE_LCBR &kp DE_LPRN &kp DE_RPRN &kp DE_RCBR &kp DE_QUOT
       &kp LSHIFT &kp LALT    &kp C_VOL_DN &kp C_MUTE  &kp C_VOL_UP &kp PSCRN        &kp DE_TILD &kp DE_LBRC &kp DE_LESS &kp DE_MORE &kp DE_RBRC &kp DE_SLSH
                                                          &trans &trans &trans       &trans &trans &trans
                         >;
